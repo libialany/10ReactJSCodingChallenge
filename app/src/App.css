@@ -31,6 +31,11 @@ body{
   background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(209,70,252,1) 100%);
 }
+button{
+  background: rgb(99, 123, 243);
+  color: white;
+  
+}
 
 .card img{
   object-fit: cover;
@@ -40,3 +45,39 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(209,70,252,1) 100
 h4{
   text-transform: uppercase;
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color:  rgb(63,94,251);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background:  hsl(230, 100%, 60%);
+  cursor: pointer;
+  pointer-events: none;
+}
+/* Transition */

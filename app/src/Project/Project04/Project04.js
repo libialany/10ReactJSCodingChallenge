@@ -75,7 +75,7 @@ export default function Project04() {
                 <button className='search-btn' type="submit" value="Search" >search</button>
             </form>
             <div className='list'>
-                <h4>{typeAnime}</h4>
+                <h4>{query}</h4>
                 {images.length > 0 ?
                     images.map((image,index) =>
                         <AnimeCard key={index} anime_name={image.anime_name} url={image.url} />
