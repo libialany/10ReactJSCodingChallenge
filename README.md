@@ -1,4 +1,4 @@
-# 10ReactJSCodingChallenge
+# ReactJSCodingChallenge
 Coding Interview Prep
 
 link the post : https://hackernoon.com/about/michaelpautov
